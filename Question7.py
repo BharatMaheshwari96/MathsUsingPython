@@ -1,0 +1,12 @@
+name=input("Enter the Name: ")
+age=int(input("Enter the Age: "))
+gross_pay=float(input("Enter the Gross pay: "))
+tax_rate=float(input("Enter the Tax Rate:"))
+net_pay= gross_pay-(gross_pay*(tax_rate/100))
+print("---------------------------------------")
+print("Your Name is : ",name)
+print("Your Age is: ",age)
+print("Gross pay: ",gross_pay,"euro") 
+print("Tax rate: ",tax_rate)
+print("Net pay is: ",net_pay,"euro")
+
